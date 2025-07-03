@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>O Mago dos Loops</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>🧙‍♂️ O Mago dos Loops</h1>
+      <p class="description">
+        Ajude o mago a restaurar a ordem temporal identificando os intervalos de dias consecutivos!
+      </p>
+
+      <div class="input-group">
+        <label for="days-input">Dias Mágicos (separados por vírgula):</label>
+        <input type="text" id="days-input" placeholder="Ex: 3,4,5,10,11,15,16,17,18,23" />
+      </div>
+
+      <div class="button-group">
+        <button id="decipher-btn">DECIFRAR</button>
+        <button id="return-btn">RETORNAR</button>
+      </div>
+      <br />
+      <br />
+      <div class="result-section">
+        <h2>Resultado da Magia Temporal</h2>
+        <div id="result" class="result-content"></div>
+        <div id="calculation" class="calculation-steps"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
